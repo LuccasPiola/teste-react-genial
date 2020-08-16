@@ -1,4 +1,6 @@
-<img alt="Genial" title="Genial" src="assets/logo.svg" width="300px" />
+<h1 align="center">
+  <img alt="Genial" title="Genial" src="assets/logo.svg" width="300px" />
+</h1>
 
 <h3 align="center">
   Teste para a Genial investimentos utilizando ReactJS
