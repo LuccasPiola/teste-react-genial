@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Genial" title="Genial" src="assets/logo.svg" width="300px" />
+  <img alt="Genial" title="Genial" src="assets/logo.png" width="300px" />
 </h1>
 
 <h3 align="center">
@@ -11,21 +11,21 @@
 <blockquote align="center">“Programs must be written for people to read, and only incidentally for machines to execute.” ― Harold Abelson</blockquote>
 
 <p align="center">
-  <a href="#sobre-o-test">Sobre o teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sobre-o-teste">Sobre o teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#funcionamento">Funcionamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tests">Testes</a>
+  <a href="#testes">Testes</a>
 </p>
 
 ## Sobre o teste
 
-Esse é o teste proposto pela [GenialInvestimentos](https://www.genialinvestimentos.com.br/), com o intuito de analisar
+Esse é o teste proposto pela [Genial Investimentos](https://www.genialinvestimentos.com.br/), com o intuito de analisar
 e contratar um desenvolvedor frontend, feito em parceria com a [Sciensa](http://www.sciensa.com/)
 
 O teste consistia no desenvolvimento de uma página do site, mais especificamente da carteira, onde dois gráficos são
 mostrados, permitindo a interação do usuário.
 
 <h1 align="center">
-  <img alt="GoStack" title="GoStack" src="githubAssets/test.png" width="700px" />
+  <img alt="Teste" title="Teste" src="assets/test.png" width="700px" />
 </h1>
 
 ### **Tecnologias utilizadas para o teste**
@@ -36,12 +36,12 @@ mostrados, permitindo a interação do usuário.
 - :yellow_heart: Prettier, ESlint e EditorConfig - Tecnologias para padronização de código.
 
 ### **Tecnologia utilizada para o deploy**
-- :red_heart: **[Firebase](https://firebase.google.com/?hl=pt)** — Tecnologia de deploy utilizando devOps.
+- :heart: **[Firebase](https://firebase.google.com/?hl=pt)** — Tecnologia de deploy utilizando devOps.
 
 ## Funcionamento
 
 <h1 align="center">
-  <img alt="funcionamento" title="funcionamento" src="githubAssets/genial.gif" width="300px" />
+  <img alt="funcionamento" title="funcionamento" src="assets/genial.gif" width="300px" />
 </h1>
 
 Como se pode perceber no gif acima, a página está interagível, permitindo o usuário mostrar quais linhas do gráfico ele deseja
@@ -61,7 +61,7 @@ ESlint para padronização geral, Prettier para padronização estilística e Ed
 ## Testes
 
 Esse teste foi hospedado utilizando o [Firebase](https://firebase.google.com/?hl=pt). Portanto, para acessar o teste, entre 
-[neste](https://teste-react-genial.web.app/) link. Ao entrar, será possível interagir com a aplicação como um todo. Para análise
+[neste](https://teste-react-genial-5bf38.web.app/) link. Ao entrar, será possível interagir com a aplicação como um todo. Para análise
 de código, este repositório foi criado utilizando a arquitetura de componentização. Sobre a arquitetura de pastas:
 
  * *assets* - Pasta dedicada à imagens e ícones da aplicação
