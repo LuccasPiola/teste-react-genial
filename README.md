@@ -41,7 +41,7 @@ mostrados, permitindo a interação do usuário.
 ## Funcionamento
 
 <h1 align="center">
-  <img alt="funcionamento" title="funcionamento" src="assets/genial.gif" width="300px" />
+  <img alt="funcionamento" title="funcionamento" src="assets/genial.gif" width="1000px" />
 </h1>
 
 Como se pode perceber no gif acima, a página está interagível, permitindo o usuário mostrar quais linhas do gráfico ele deseja
