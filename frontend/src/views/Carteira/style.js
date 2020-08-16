@@ -12,6 +12,6 @@ export const NormalContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    min-width: 70%;
+    min-width: 100%;
   }
 `

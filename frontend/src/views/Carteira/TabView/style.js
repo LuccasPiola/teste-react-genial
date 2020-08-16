@@ -13,7 +13,7 @@ export const Tabs = styled.div`
   }
 
   @media screen and (max-width: 700px) {
-    padding: 25px 5px 25px 10px;
+    padding: 25px 5px 25px 20px;
   }
 `
 
@@ -36,6 +36,14 @@ export const Tab = styled.li`
     margin-left: 20px;
   }
   position: relative;
+
+  @media screen and (max-width: 700px) {
+    font-size: 12px;
+
+    & + li {
+    margin-left: 10px;
+  }
+  }
 
   &::before {
     content: '';

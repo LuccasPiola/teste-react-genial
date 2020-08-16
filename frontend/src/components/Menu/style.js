@@ -19,7 +19,8 @@ export const MenuContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    min-width: 30%;
+    min-width: 100%;
+    padding: 20px 0 0 0;
   }
 `
 
@@ -31,6 +32,12 @@ export const LogoContainer = styled.div`
 
 export const MenuList = styled.ul`
   list-style: none;
+  transition: max-height 0.3s ease;
+
+  @media screen and (max-width: 800px) {
+    transition: max-height 0.3s ease;
+    max-height: ${({ showMenu }) => showMenu ? '500px' : '0'}
+  }
 `
 
 export const MenuItem = styled.li`
@@ -40,7 +47,7 @@ export const MenuItem = styled.li`
   padding: 15px;
   background-color: ${({ active, theme }) =>
     active ? theme.colors.primaryLight : 'transparent'};
-  transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease, max-height 0.3s ease;
   cursor: pointer;
 
   &:hover {
@@ -51,6 +58,11 @@ export const MenuItem = styled.li`
   &:active {
     background-color: ${({ theme }) => theme.colors.primary};
     transition: background-color 0.5s ease;
+  }
+
+  @media screen and (max-width: 800px) {
+    transition: opacity 0.3s ease;
+    opacity: ${({ showMenu }) => showMenu ? '1' : '0'};
   }
 `
 
@@ -66,4 +78,5 @@ export const Icon = styled.img`
 
 export const Logo = styled.img`
   width: 90px;
+  cursor: pointer;
 `

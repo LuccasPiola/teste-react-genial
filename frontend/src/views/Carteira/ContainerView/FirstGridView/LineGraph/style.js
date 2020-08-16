@@ -35,6 +35,10 @@ export const Text = styled.h2`
   color: ${({ theme }) => theme.colors.black};
   margin-right: 30px;
   font-size: 12px;
+
+  @media screen and (max-width: 700px) {
+    margin-right: 15px;
+  }
 `
 
 export const CheckboxContainer = styled.div`
@@ -43,6 +47,12 @@ export const CheckboxContainer = styled.div`
 
   & + div {
     margin-left: 20px;
+  }
+
+  @media screen and (max-width: 700px) {
+    & + div {
+      margin-left: 10px;
+    }
   }
 `
 

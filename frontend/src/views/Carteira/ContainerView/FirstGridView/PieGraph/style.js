@@ -8,6 +8,10 @@ export const PieGraph = styled.div`
     z-index: 5;
     position: relative;
   }
+
+  @media screen and (max-width: 700px) {
+    height: 400px;
+  }
 `
 export const Infos = styled.div`
   position: absolute;
@@ -21,6 +25,10 @@ export const Total = styled.h2`
   font-size: 20px;
   font-weight: 900;
   color: ${({ theme }) => theme.colors.gray1};
+
+  @media screen and (max-width: 700px) {
+    font-size: 16px;
+  }
 `
 
 export const Actives = styled.h3`
