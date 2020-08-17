@@ -58,7 +58,7 @@ e mudar a propriedade name do objeto que está sendo passado para o componente *
 Outro ponto importante para se tocar é a utilização de padronização de código nesse projeto. Para isso, foram utilizados o 
 ESlint para padronização geral, Prettier para padronização estilística e EditorConfig para padronização entre sistemas operacionais.
 
-## Testes
+## Ver funcionando
 
 Esse teste foi hospedado utilizando o [Firebase](https://firebase.google.com/?hl=pt). Portanto, para acessar o teste, entre 
 [neste](https://teste-react-genial-5bf38.web.app/) link. Ao entrar, será possível interagir com a aplicação como um todo. Para análise
