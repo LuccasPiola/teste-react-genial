@@ -13,7 +13,7 @@
 <p align="center">
   <a href="#sobre-o-teste">Sobre o teste</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#funcionamento">Funcionamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#testes">Testes</a>
+  <a href="#ver-funcionando">Ver funcionando</a>
 </p>
 
 ## Sobre o teste
